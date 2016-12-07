@@ -770,3 +770,31 @@
 .device-mockup.samsung_tv.landscape > .device > .screen {
     top: 2.148803%; bottom: 12.817127%; left: 1.261956%; right: 1.361956%;
 }
+
+/* Nexus 6 */
+.device-mockup.nexus6,
+.device-mockup.nexus6.portrait {
+    padding-bottom: 189.751958225%;
+}
+
+.device-mockup.nexus6.landscape {
+    padding-bottom: 52.700378397%;
+}
+
+.device-mockup.nexus6 > .device,
+.device-mockup.nexus6.portrait > .device {
+    background-image: url("nexus_6/nexus_6_port.png");
+}
+
+.device-mockup.nexus6.landscape > .device {
+    background-image: url("nexus_6/nexus_6_land.png");
+}
+
+.device-mockup.nexus6 > .device > .screen,
+.device-mockup.nexus6.portrait > .device > .screen {
+    top: 7.5%; bottom: 7.5%; left: 7%; right: 7%;
+}
+
+.device-mockup.nexus6.landscape > .device > .screen {
+    top: 7%; bottom: 7%; left: 7.5%; right: 7.5%;
+}
