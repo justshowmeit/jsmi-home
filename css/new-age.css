@@ -254,7 +254,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -331,10 +331,12 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+    background-color: #222222;
 }
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
+    color: #ffffff;
 }
 section.contact h2 i {
   color: #dd4b39;
@@ -363,11 +365,11 @@ section.contact ul.list-social li.social-facebook a {
 section.contact ul.list-social li.social-facebook a:hover {
   background-color: #344e86;
 }
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
+section.contact ul.list-social li.social-email a {
+  background-color: #F20F3F;
 }
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
+section.contact ul.list-social li.social-email a:hover {
+  background-color: #cc0a33;
 }
 footer {
   background-color: #222222;
@@ -461,4 +463,36 @@ body {
   justify-content: center; /* Optional, to align inner items 
                               horizontally inside the column */
 }
+
+/* Andrew's additons */
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float:  none;
+}
+
+.vcenter p {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+@media(min-width:768px) {
+    .vcenter p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+.about-grid-text {
+   text-align: left;
+
+}
+
+section.features h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center
+}
+
 
