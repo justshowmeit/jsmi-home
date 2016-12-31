@@ -28,11 +28,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #f20f3f;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #cc0a33;
 }
 hr {
   max-width: 100px;
@@ -72,11 +72,11 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #F20F3F;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #F20F3F;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -95,11 +95,11 @@ p {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #F20F3F;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #F20F3F !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -135,7 +135,7 @@ p {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #F20F3F;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -143,7 +143,7 @@ p {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #F20F3F;
   }
 }
 header {
